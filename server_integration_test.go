@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/kr/fs"
-	"golang.org/x/crypto/ssh"
+	"github.com/betalo-sweden/crypto/ssh"
 )
 
 var testSftpClientBin = flag.String("sftp_client", "/usr/bin/sftp", "location of the sftp client binary")
