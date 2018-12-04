@@ -19,8 +19,6 @@ matrix:
     - os: osx
       go: tip
 
-sudo: false
-
 addons:
   ssh_known_hosts:
       - bitbucket.org
